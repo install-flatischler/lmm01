@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&family=Oswald:wght@200..700&display=swap');
+    
+body {
+    font-family: Fira Sans, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #686D6E; 
+    padding: 0;
+    margin: 0;
+    hyphens: auto;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+    color: rgb(0,0,0);
+    text-align: center;
+}
+
+.block {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+header {
+    margin-top: 20px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+#schank, #winzer {
+    padding: 40px 0 !important;
+    background-color: rgba(104,109,110,0.2);
+    overflow: auto;
+}
+
+#kontakt {
+    overflow: auto;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.navbar {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+
+.size-brand {
+    max-width: 200px;
+}
+
+.but-top:link, .but-top:visited {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #686D6E;
+    float: right;
+    margin-top: 40px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.m-top {
+    margin-top: 20px;
+}
+
+.m-top-40 {
+    margin-top: 40px;
+}
+
+.wine {
+    width: 100%;
+    background-color: rgba(0,0,0,0.1);
+    padding: 10px;
+    list-style-position: inside;
+}
+
+.wine li {
+    border-bottom: solid 1px #686D6E;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(0,0,0);
+}
+
+.line {
+    width: 100%;
+    border-top: solid 2px #686D6E;
+    margin: 20px 0;
+}
+
+footer .line {
+    width: 100%;
+    border-top: dotted 1px rgb(255,255,255);
+    margin: 20px 0;
+}
+
+.btn-custom {
+    background-color: rgba(0,0,0,0.3);
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(0,0,0);
+    padding: 40px 0 !important;
+    color: rgb(255,255,255);
+    font-size: 14px;
+}
+
+footer h4 {
+    color: rgb(255,255,255);
+    text-align: left;
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+
+#info {
+    background-color: rgb(50,50,50);
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+
+footer a:link, footer a:visited {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}

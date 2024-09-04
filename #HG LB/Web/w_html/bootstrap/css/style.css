@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --white: rgb(255,255,255);
+    --black: rgb(0,0,0);
+    --grey: rgb(104,109,110);
+}
+
+html,
+html * {
+    hyphens: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: var(--black);
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: Lora, serif;
+    color: var(--grey);
+    text-align: center;
+}
+
+#brand {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo-size {
+    width: 20%;
+}
+
+.navbar {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.container-fluid {
+    padding: 0 !important; 
+}
+
+.block {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.space-top {
+    margin-top: 40px;
+}
+
+.but-top {
+    float: right;
+    margin: 20px 0;
+}
+
+.but-top a:link, .but-top a:visited {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.parallax-01 {
+    background-image: url(../img/silberberg_weingarten_weisswein_weinrebe.png);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.btn-common {
+    background-color: var(--grey);
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+#weingut {
+    overflow: auto;
+}
+
+
+/* Breakpoint für Tablet - 768px */
+
+@media only screen and (max-width: 768px) {
+  
+.logo-size {
+    width: 40%;
+}
+    
+}
